@@ -22,8 +22,6 @@ html {
 
   /* 1rem = 16px = 100% (User Agent) */
   font-size: 62.5%; /*10px*/
-
-  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -38,6 +36,7 @@ input,
 textarea {
   /* clamp = intervalo de tamanho */
   font-size: clamp(14px, 1.6rem, 2vw);
+  font-family: "Open Sans", sans-serif;
 }
 
 .content {
@@ -97,7 +96,7 @@ button.outlined,
 .button.outlined {
   background: var(--white);
   color: var(--blue);
-  border: 2px solid var(--blue);
+  border: 0.2rem solid var(--blue);
 }
 
 .content header {
