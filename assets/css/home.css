@@ -52,6 +52,10 @@ button,
   margin-bottom: 1.8rem;
 }
 
+.margin-right {
+  margin-right: 1rem;
+}
+
 /* -------------------- SEPARATOR -------------------- */
 .separator {
   display: flex;
