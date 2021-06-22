@@ -61,6 +61,7 @@
 
 #question-form form textarea::placeholder {
   color: var(--gray-blue);
+  font-family: "Open Sans", sans-serif;
 }
 
 #question-form form footer {
@@ -114,6 +115,18 @@
 }
 
 #question .actions a {
-  margin-right: 1.6rem;
   color: var(--gray);
+  margin-right: 1.6rem;
+}
+
+.actions-align,
+.check,
+.delete {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.actions img {
+  margin-right: 0.8rem;
 }
