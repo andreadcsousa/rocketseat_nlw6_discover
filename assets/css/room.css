@@ -113,11 +113,6 @@
   font-weight: 500;
 }
 
-#question .actions-align {
-  display: flex;
-  align-items: center;
-}
-
 #question .actions a {
   margin-right: 1.6rem;
   color: var(--gray);
