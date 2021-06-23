@@ -15,6 +15,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/global.css" />
     <link rel="stylesheet" href="assets/css/room.css" />
+    <link rel="stylesheet" href="assets/css/modal.css" />
 
     <title>Rocket.Q - Q&A</title>
   </head>
@@ -61,85 +62,122 @@
           </form>
         </section>
 
-        <section id="question">
+        <section id="questions">
           <h2 class="sr-only">Perguntas da comunidade</h2>
-
           <div class="questions">
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
-                  <img src="./assets/img/avatar.svg" alt="Avatar do usário" />
+                  <img src="./assets/img/avatar.svg" alt="Avatar" />
                 </div>
                 <div class="question">
                   <p>Qual a diferença entre const, var e let no JavaScript?</p>
                 </div>
               </div>
               <div class="actions">
-                <div class="actions-align">
-                  <a href="#" class="check">
-                    <img src="./assets/img/check.svg" alt="Marcar como lida" />
-                    Marcar como lida
-                  </a>
-                  <a href="#" class="delete">
-                    <img src="./assets/img/trash.svg" alt="Excluir" />
-                    Excluir
-                  </a>
-                </div>
+                <a href="#" class="check">
+                  <img src="./assets/img/check.svg" alt="Marcar como lida" />
+                  Marcar como lida
+                </a>
+                <a href="#" class="delete">
+                  <img src="./assets/img/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
               </div>
             </div>
-          </div>
 
-          <div class="questions">
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
-                  <img src="./assets/img/avatar.svg" alt="Avatar do usário" />
-                </div>
-                <div class="question">
-                  <p>O que é Typescript?</p>
-                </div>
-              </div>
-              <div class="actions">
-                <div class="actions-align">
-                  <a href="#" class="check">
-                    <img src="./assets/img/check.svg" alt="Marcar como lida" />
-                    Marcar como lida
-                  </a>
-                  <a href="#" class="delete">
-                    <img src="./assets/img/trash.svg" alt="Excluir" />
-                    Excluir
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="questions">
-            <div class="question-wrapper">
-              <div class="question-content">
-                <div class="user">
-                  <img src="./assets/img/avatar.svg" alt="Avatar do usário" />
+                  <img src="./assets/img/avatar.svg" alt="Avatar" />
                 </div>
                 <div class="question">
                   <p>O que é JavaScript?</p>
                 </div>
               </div>
               <div class="actions">
-                <div class="actions-align">
-                  <a href="#" class="check">
-                    <img src="./assets/img/check.svg" alt="Marcar como lida" />
-                    Marcar como lida
-                  </a>
-                  <a href="#" class="delete">
-                    <img src="./assets/img/trash.svg" alt="Excluir" />
-                    Excluir
-                  </a>
+                <a href="#" class="check">
+                  <img src="./assets/img/check.svg" alt="Marcar como lida" />
+                  Marcar como lida
+                </a>
+                <a href="#" class="delete">
+                  <img src="./assets/img/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper">
+              <div class="question-content">
+                <div class="user">
+                  <img src="./assets/img/avatar.svg" alt="Avatar" />
                 </div>
+                <div class="question">
+                  <p>
+                    Você ja sabe quais as bases você precisa melhorar para
+                    alcançar o seu próximo nível com maestria? Definiu o seu
+                    foco e objetivo para seguir em frente? Estou curiosa e
+                    embasbacada com sua perseverança por ter alcançado a
+                    terceira aula e sei que vai continuar ate o fim, então
+                    responde ai pra gente!!
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="check">
+                  <img src="./assets/img/check.svg" alt="Marcar como lida" />
+                  Marcar como lida
+                </a>
+                <a href="#" class="delete">
+                  <img src="./assets/img/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper read">
+              <div class="question-content">
+                <div class="user">
+                  <img src="./assets/img/avatar.svg" alt="Avatar" />
+                </div>
+                <div class="question">
+                  <p>O que é Script?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="delete">
+                  <img src="./assets/img/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
               </div>
             </div>
           </div>
         </section>
       </main>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir pergunta</h2>
+        <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+        <form action="#">
+          <label class="sr-only" for-id="password"
+            >Digite sua senha admin</label
+          >
+          <input
+            type="password"
+            name="password"
+            placeholder="Digite sua senha"
+          />
+
+          <div class="buttons">
+            <div class="button gray">Cancelar</div>
+            <button class="red">Sim, excluir</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>

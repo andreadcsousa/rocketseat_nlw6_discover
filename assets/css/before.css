@@ -3,7 +3,7 @@
 }
 
 /* -------------------- HEADER -------------------- */
-#room header {
+#before header {
   width: 100%;
 
   display: flex;
@@ -11,26 +11,27 @@
   justify-content: space-between;
 }
 
-#room header .buttons {
+#before header .buttons {
   display: flex;
 }
 
-#room header .buttons .button:nth-child(1) {
+#before header .buttons .button:nth-child(1) {
   margin-right: 0.8rem;
   padding: 1.3rem 1.6rem;
 }
 
-#room header .buttons .button:nth-child(1) img {
+#before header .buttons .button:nth-child(1) img {
   margin-left: 1rem;
   width: 2rem;
   height: 2rem;
 }
 
-#room header .buttons .button:nth-child(2) {
+#before header .buttons .button:nth-child(2) {
   padding: 1.3rem 3.2rem;
 }
 
-#room header .buttons .button:nth-child(2) img {
+#before header .buttons .button:nth-child(2) img {
+  margin-right: 1rem;
   width: 2rem;
   height: 2rem;
 }
@@ -91,59 +92,28 @@
   line-height: 2.4rem;
 }
 
-/* ------------------- QUESTION ------------------- */
-.question-wrapper {
-  background: var(--light-blue);
-  margin-bottom: 0.8rem;
-  border-radius: 0 0.8rem 0.8rem 0.8rem;
-  padding: 2.4rem;
+/* -------------------- BEFORE -------------------- */
+.before {
+  text-align: center;
+  padding-top: 4rem;
+
+  width: 25%;
+  margin: 0 auto;
 }
 
-.question-wrapper .question-content {
-  display: flex;
-  align-items: flex-start;
+.before h3 {
+  font-size: 1.8rem;
+  color: var(--black);
+  padding: 1.5rem 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 2.7rem;
 }
 
-.question-wrapper .question-content .user {
-  background: var(--blue);
-  clip-path: circle();
-  padding: 1.4rem;
-}
-
-.question-wrapper .question-content p {
-  margin-left: 1.6rem;
-  word-break: break-word;
-  display: flex;
-  align-items: center;
-  min-height: 5.5rem;
-}
-
-.question-wrapper .actions {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.question-wrapper .actions > a {
-  display: flex;
-  align-items: center;
-
+.before p {
+  font-size: 1.4rem;
   color: var(--gray-dark);
-}
-
-.question-wrapper .actions > a > img {
-  margin-right: 0.8rem;
-}
-
-.question-wrapper .actions > a + a {
-  margin-left: 2.4rem;
-}
-
-/* -------------------- Q. READ -------------------- */
-.question-wrapper.read {
-  background: var(--gray-medium);
-}
-
-.question-wrapper.read .question-content .user {
-  background: var(--gray-blue);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.9rem;
 }
