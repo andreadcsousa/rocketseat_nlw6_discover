@@ -23,4 +23,7 @@ Esse projeto foi desenvolvido com:
 
 # :art: Layout
 
-<img src="./files/rocketq.jpg" alt="" width="100%">
+<img src="./files/home.jpg" alt="" width="48%"> <img src="./files/create-pass.jpg" alt="" width="48%">
+<img src="./files/empty-room.jpg" alt="" width="48%"> <img src="./files/room.jpg" alt="" width="48%">
+<img src="./files/read-message.jpg" alt="" width="48%"> <img src="./files/delete-message.jpg" alt="" width="48%">
+<img src="./files/question-room.jpg" alt="" width="48%">
