@@ -17,11 +17,9 @@
 
 # :rocket: Tecnologias
 
-Esse projeto foi desenvolvido com:
-
 <img src="./files/html.svg" width="100"><img src="./files/css.svg" width="100"><img src="./files/javascript.svg" width="100">
 
-Integraram o projeto:
+# :package: Recursos
 
 <img src="./files/json.svg" alt="json" width="100"><img src="./files/node.svg" alt="node" width="100"><img src="./files/nodemon.svg" alt="nodemon" width="100"><img src="./files/ejs.svg" alt="ejs" width="100"> <img src="./files/sqlite.svg" alt="sqlite" width="95"> <img src="./files/beekeeper.svg" alt="beekeeper" width="92">
 
